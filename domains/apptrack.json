@@ -1,0 +1,15 @@
+{
+    "owner": {
+        "username": "khanhngn-dev",
+        "email": "khanhngn.dev@gmail.com"
+    },
+    "record": {
+        "A": ["76.76.21.21"],
+        "MX": ["feedback-smtp.us-east-1.amazonses.com"],
+        "TXT": [
+          "v=spf1 include:amazonses.com ~all",
+          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDl9AgpgBX0faq0B5+syCfYCoWgf5GkqGLzAwGTn4l3mMoCzeZlhSFL4ErOZtT3RAxsZrbUMJ9KCfQ1kduVau6COtxUy0wS7PdY5o68/HltUHLORpntxvVXK6rhgDSXHuMyOmKybMRSWiYxTl478v+SzdjgS+TBZp1QWW5sppxr9QIDAQAB",
+          "v=DMARC1; p=none;"
+        ]
+    }
+}
